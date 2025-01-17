@@ -1,0 +1,43 @@
+body {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main {
+    margin: 2em;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    margin: 15px 0;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 3em;
+}
+
+#info-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-info {
+    margin: 0;
+    text-align: right;
+}
+
+#contact-info p {
+    margin: 5px auto;
+}
