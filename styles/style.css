@@ -68,6 +68,10 @@ ul {
     margin-bottom: .25rem;
 }
 
+li {
+    margin: .25rem;
+}
+
 .less-bold {
     display: inline-block;
     font-size: larger;
